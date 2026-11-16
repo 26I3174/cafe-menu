@@ -1,0 +1,87 @@
+<!--
+Name: Ayesha Ajaz
+Roll Number: i263174
+Section: D
+-->
+
+<html>
+<head>
+  <title>Cafe Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Raahi Cafe</h1>
+  <p class="tagline">Fresh chai, hot parathas, slow evenings</p>
+
+  <div class="links">
+    <a href="#">Chai</a>
+    <a href="#">Snacks</a>
+    <a href="#">Mains</a>
+    <a href="#">Desserts</a>
+  </div>
+
+  <img class="big" src="images/chai.jpg" alt="chai">
+
+  <p>Raahi Cafe is a small place on Main Boulevard. We make our chai slowly and our parathas fresh. We are open every day from 8 am to 12 am.</p>
+
+  <h2>Today's Menu</h2>
+
+  <table>
+    <tr>
+      <th>No.</th>
+      <th>Item</th>
+      <th>Description</th>
+      <th>Price (Rs)</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Doodh Patti</td>
+      <td>Strong milky chai</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Samosa</td>
+      <td>2 pieces with chutney</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Paratha</td>
+      <td>Aloo paratha with achaar</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Chicken Karahi</td>
+      <td>Half portion with naan</td>
+      <td>900</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Kheer</td>
+      <td>Cold, with pistachio</td>
+      <td>200</td>
+    </tr>
+  </table>
+
+  <br>
+  <img class="small" src="images/karahi.jpg" alt="karahi">
+  <img class="small" src="images/kheer.jpg" alt="kheer">
+  <br><br>
+
+  <button onclick="orderNow()">Order</button>
+
+  <p class="footer">Raahi Cafe, Main Boulevard, Islamabad | Open 8 am - 12 am</p>
+
+  <script>
+    function orderNow() {
+      console.log("Order button was clicked");
+      window.alert("Your order has been placed. Thank you!");
+    }
+  </script>
+
+</body>
+</html>
